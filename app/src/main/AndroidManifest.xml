@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prjucu.preschoollearning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LookListenAndLearn">
+        <activity
+            android:name=".triangles"
+            android:exported="false" />
+        <activity
+            android:name=".stars"
+            android:exported="false" />
+        <activity
+            android:name=".squares"
+            android:exported="false" />
+        <activity
+            android:name=".rectangles"
+            android:exported="false" />
+        <activity
+            android:name=".pentagons"
+            android:exported="false" />
+        <activity
+            android:name=".ovals"
+            android:exported="false" />
+        <activity
+            android:name=".hexagons"
+            android:exported="false" />
+        <activity
+            android:name=".hearts"
+            android:exported="false" />
+        <activity
+            android:name=".cirlces"
+            android:exported="false" />
+        <activity
+            android:name=".arrows"
+            android:exported="false" />
+        <activity
+            android:name=".yellow"
+            android:exported="false" />
+        <activity
+            android:name=".orange"
+            android:exported="false" />
+        <activity
+            android:name=".white"
+            android:exported="false" />
+        <activity
+            android:name=".green"
+            android:exported="false" />
+        <activity
+            android:name=".red"
+            android:exported="false" />
+        <activity
+            android:name=".brown"
+            android:exported="false" />
+        <activity
+            android:name=".purple"
+            android:exported="false" />
+        <activity
+            android:name=".blue"
+            android:exported="false" />
+        <activity
+            android:name=".pink"
+            android:exported="false" />
+        <activity
+            android:name=".black"
+            android:exported="false" />
+        <activity
+            android:name=".ten"
+            android:exported="false" />
+        <activity
+            android:name=".nine"
+            android:exported="false" />
+        <activity
+            android:name=".eight"
+            android:exported="false" />
+        <activity
+            android:name=".seven"
+            android:exported="false" />
+        <activity
+            android:name=".six"
+            android:exported="false" />
+        <activity
+            android:name=".five"
+            android:exported="false" />
+        <activity
+            android:name=".four"
+            android:exported="false" />
+        <activity
+            android:name=".three"
+            android:exported="false" />
+        <activity
+            android:name=".two"
+            android:exported="false" />
+        <activity
+            android:name=".qone"
+            android:exported="false" />
+        <activity
+            android:name=".number"
+            android:exported="false" />
+        <activity
+            android:name=".yz"
+            android:exported="false" />
+        <activity
+            android:name=".uvyx"
+            android:exported="false" />
+        <activity
+            android:name=".qrst"
+            android:exported="false" />
+        <activity
+            android:name=".mnop"
+            android:exported="false" />
+        <activity
+            android:name=".ijkl"
+            android:exported="false" />
+        <activity
+            android:name=".efgh"
+            android:exported="false" />
+        <activity
+            android:name=".abcd"
+            android:exported="false" />
+        <activity
+            android:name=".shape"
+            android:exported="false" />
+        <activity
+            android:name=".color"
+            android:exported="false" />
+        <activity
+            android:name=".alphabet"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".menu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

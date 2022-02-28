@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "610472990118",
+    "project_id": "look-listen-and-learn",
+    "storage_bucket": "look-listen-and-learn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610472990118:android:0c702ae4a3938e8b9c6b67",
+        "android_client_info": {
+          "package_name": "com.prjucu.preschoollearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610472990118-2ahr16ln8uhu9dbc3jfsjpd7fq7n3ol3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prjucu.preschoollearning",
+            "certificate_hash": "6aa779cd3e3986b896ba9c523dad2075d87b855c"
+          }
+        },
+        {
+          "client_id": "610472990118-uilvhht10jbr4ssbejut9sunlcv2g2l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiKqAzOca53T_exNGeBFwaJKQEpjXUGl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610472990118-uilvhht10jbr4ssbejut9sunlcv2g2l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
